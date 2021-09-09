@@ -16,7 +16,6 @@ pipeline {
         
             steps {
                  echo 'testing the application...'
-
             }
         }
          stages {
