@@ -7,7 +7,7 @@ pipeline {
         stage("build") {
         
             steps {
-                echo 'constructing the application...'
+                echo 'constructing the application for new project'
             }
         }
          stages {
@@ -15,7 +15,7 @@ pipeline {
         stage("test") {
         
             steps {
-                 echo 'testing if construction was done properly...'
+                 echo 'testing if construction was done properly for our new project'
             }
         }
          stages {
@@ -23,7 +23,7 @@ pipeline {
         stage("deploy") {
         
             steps {
-                 echo 'deploying the newly constructed application...'
+                 echo 'deploying the newly constructed application for our new project'
 
             }
         }
